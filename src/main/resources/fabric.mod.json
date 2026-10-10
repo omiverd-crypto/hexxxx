@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hexpowers",
+  "version": "${version}",
+  "name": "Hex Powers: Wanda, Wiccan & Agatha",
+  "description": "Grants the player the magic of the Scarlet Witch, Wiccan or Agatha Harkness: 15 spells, flight, HUD, and the Darkhold.",
+  "authors": ["Claude"],
+  "license": "MIT",
+  "icon": "assets/hexpowers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.hexpowers.HexPowers"],
+    "client": ["net.hexpowers.client.HexPowersClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:book" },
+    { "item": "minecraft:ender_eye" },
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "minecraft:redstone_block" }
+  ],
+  "result": { "id": "hexpowers:darkhold", "count": 1 }
+}
